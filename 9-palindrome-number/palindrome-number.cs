@@ -8,6 +8,7 @@ public class Solution {
             invertedNumber[i] = number[number.Length-1-i];
              if( invertedNumber[i] != number[i]){
                 isPalindrome = false;
+                break;
             }
         }
         return isPalindrome;
